@@ -13,4 +13,4 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(main src/main.cpp)
-target_link_libraries(main PRIVATE SFML::Graphics)
+target_link_libraries(main PRIVATE SFML::Graphics SFML::Audio)
