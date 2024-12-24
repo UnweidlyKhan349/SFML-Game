@@ -24,7 +24,7 @@ int main() {
     struct Torpedo {
         float velocity = 0;
         float angle = 0;
-    }
+    };
     // std::vector<Torpedo> torpedos;
     Player player;    
 
