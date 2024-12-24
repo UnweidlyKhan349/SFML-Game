@@ -54,7 +54,6 @@ int main() {
         if (Keyboard::isKeyPressed(Keyboard::Key::S)) {
             player.velocity -= speed;
         }
-        std::cout << player.velocity << std::endl;
         if (Keyboard::isKeyPressed(Keyboard::Key::A)) {
             sprite.rotate(degrees(-turn));
             player.angle -= turn;
