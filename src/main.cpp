@@ -105,10 +105,8 @@ int main() {
             torpedo.sprite.move({torpedo_speed * std::cos(torpedo.angle.asRadians()) * dt.asSeconds(), torpedo_speed * std::sin(torpedo.angle.asRadians()) * dt.asSeconds()});
             window.draw(torpedo.sprite);
             torpedo.time += dt.asSeconds();
-        }
-        for (Torpedo torpedo: torpedos) {
             if (torpedo.time > torpedo_lifetime) {
-                // torpedos.erase(std::remove(torpedos.begin(), torpedos.end(), torpedo), torpedos.end());
+                torpedos.erase(std::remove(torpedos.begin(), torpedos.end(), torpedo), torpedos.end());
             }
         }
         window.draw(sprite);
