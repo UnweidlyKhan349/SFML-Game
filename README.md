@@ -1,8 +1,6 @@
 # SFML Game
-hi
-this is a submarine game
-enjoy
-
+unfinished submarine game\
+probably won't finish
 
 "Galactic Rap " Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 License
